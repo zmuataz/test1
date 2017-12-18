@@ -4,7 +4,7 @@ var s=http.createServer(function(req,res){
     res.write("hello  test\n");
 	res.write('more line');
     setTimeout(function(){
-    res.end("World\n");
+    res.end("123 World\n");
 
     },2000);
 
